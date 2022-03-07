@@ -12,7 +12,7 @@ int main(){
     int num;
 
     // Algoritma
-    printf("Enter a numbe of monthr: ");
+    printf("Enter a number of month: ");
     scanf("%d", &num);
     switch(num){
         case 1:
