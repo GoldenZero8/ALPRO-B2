@@ -9,11 +9,14 @@
 
 // Reverse triangle * patterns
 int main(){
+    // Kamus
     int N;
+    
+    // Algoritma
     printf("Masukkan angka: ");
     scanf("%d", &N);
     int i, j;
-    for(i=N; i>=1; i--){
+    for(i=N; i>=1; i--){ // Reverse moment
         for(j=1; j<=i; j++){
             printf("*");
         }
