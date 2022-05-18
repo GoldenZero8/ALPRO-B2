@@ -5,8 +5,8 @@
 #include "mesinkar.h"
 
 /* definisi Pita */
-//char Pita_karakter[100]="pitakar.txt";
-char Pita_karakter[100]="palindrom.txt"; //untuk menguji palindrom
+char Pita_karakter[100]="pitakar.txt";
+//char Pita_karakter[100]="palindrom.txt"; //untuk menguji palindrom
 static FILE *FILEKU;
 static int retval;
 
